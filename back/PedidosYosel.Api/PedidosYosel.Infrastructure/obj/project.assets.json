@@ -1,0 +1,124 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "PedidosYosel.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "PedidosYosel.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PedidosYosel.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PedidosYosel.Application.dll": {}
+        }
+      },
+      "PedidosYosel.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/PedidosYosel.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PedidosYosel.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PedidosYosel.Application/1.0.0": {
+      "type": "project",
+      "path": "../PedidosYosel.Application/PedidosYosel.Application.csproj",
+      "msbuildProject": "../PedidosYosel.Application/PedidosYosel.Application.csproj"
+    },
+    "PedidosYosel.Domain/1.0.0": {
+      "type": "project",
+      "path": "../PedidosYosel.Domain/PedidosYosel.Domain.csproj",
+      "msbuildProject": "../PedidosYosel.Domain/PedidosYosel.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "PedidosYosel.Application >= 1.0.0",
+      "PedidosYosel.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "Y:\\Pruebas\\fullstack-pedidos\\back\\PedidosYosel.Api\\PedidosYosel.Infrastructure\\PedidosYosel.Infrastructure.csproj",
+      "projectName": "PedidosYosel.Infrastructure",
+      "projectPath": "Y:\\Pruebas\\fullstack-pedidos\\back\\PedidosYosel.Api\\PedidosYosel.Infrastructure\\PedidosYosel.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "Y:\\Pruebas\\fullstack-pedidos\\back\\PedidosYosel.Api\\PedidosYosel.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "Y:\\Pruebas\\fullstack-pedidos\\back\\PedidosYosel.Api\\PedidosYosel.Application\\PedidosYosel.Application.csproj": {
+              "projectPath": "Y:\\Pruebas\\fullstack-pedidos\\back\\PedidosYosel.Api\\PedidosYosel.Application\\PedidosYosel.Application.csproj"
+            },
+            "Y:\\Pruebas\\fullstack-pedidos\\back\\PedidosYosel.Api\\PedidosYosel.Domain\\PedidosYosel.Domain.csproj": {
+              "projectPath": "Y:\\Pruebas\\fullstack-pedidos\\back\\PedidosYosel.Api\\PedidosYosel.Domain\\PedidosYosel.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
